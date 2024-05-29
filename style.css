@@ -1,0 +1,92 @@
+/* miestilo.css */
+/* Ejercicio 2*/
+
+body 
+{
+background-color: #eaf2e3;
+color: #333;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+/*Ejercicio 3*/
+/* Nueva clase para centrar el párrafo, negrita y cursiva */
+
+body 
+
+{
+text-align: center; /* Centra el texto */
+font-weight: bold;  /* Aplica negrita */
+font-style: italic; /* Aplica cursiva */
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+/*Ejercicio 4*/
+
+h1 {
+    color: #0066cc;
+}
+
+.mi-div
+{
+    border: 2px solid #0066cc;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #e0e0ff;
+}
+/*EJERCICIO 4.3*/
+
+header {
+background-color: #69bd45;
+color: #fff;
+text-align: center;
+padding: 20px;
+}
+section {
+padding: 20px; /* espaciado para la sección de 20 pixeles */}
+footer {
+background-color: #4caf50; /* Color de fondo del footer */
+color: #fff;
+padding: 20px 0; }
+.imagen-ejemplo 
+{
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #0066cc;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.footer-content {
+max-width: 800px; /* Ancho máximo del contenido del footer */
+margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+text-align: center; }
+/*Ejercicio 6*/ 
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+background-color: #4caf50;
+padding: 10px;
+}
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+nav ul li {
+display: inline-block;
+margin-right: 20px;
+}
+nav ul li a {
+color: #fff;
+text-decoration: none;
+padding: 8px 16px;
+border-radius: 5px;
+}
+nav ul li a:hover {
+background-color: #2f8247;
+}
